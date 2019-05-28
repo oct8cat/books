@@ -1,0 +1,37 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -t 10000 --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  },
+  "bin": {
+    "books": "start.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oct8cat/books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oct8cat/books/issues"
+  },
+  "homepage": "https://github.com/oct8cat/books#readme"
+}
